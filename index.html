@@ -13,7 +13,20 @@
 </head>
 <body>
 
+<h1>maxWidth</h1>
+
 <img src="900x600.jpg" width="900" height="600" alt="上椎葉ダム" class="resize">
+
+<code>
+img.resize {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;width: auto;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;height: auto;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;max-width: 200px;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;width: expression(this.width >= this.height ? "200px" : "auto");<br>
+&nbsp;&nbsp;&nbsp;&nbsp;max-height: 200px;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;height: expression(this.width <= this.height ? "200px" : "auto");<br>
+}<br>
+</code>
 
 </body>
 </html>

@@ -19,10 +19,21 @@ a img, li img { vertical-align:bottom; }
 article, aside, figure, footer, header, hgroup, nav, section { display:block; margin:0; padding:0; }
 
 /************************************************************
- * contents
+ * general
  ************************************************************/
 
-.resize {
+body { color:#555; font-size:12px; font-family:sans-serif; line-height:1.8em; text-align:center; background:#f5f5f5; }
+h1 { margin:40px 0 20px; color:#ccc; font-size:28px; letter-spacing:0.1em; }
+img,
+code { border:solid 1px #ccc; box-shadow:0 5px 10px rgba(0, 0, 0, 0.05); }
+img { padding:4px; background:#fff; }
+code { display:block; width:480px; margin:10px auto; padding:10px; text-align:left; background:#fff; }
+
+/************************************************************
+ * resize
+ ************************************************************/
+
+img.resize {
 	width: auto;
 	height: auto;
 	max-width: 200px;
