@@ -37,7 +37,9 @@ img.resize {
 	width: auto;
 	height: auto;
 	max-width: 200px;
-	width: expression(this.width >= this.height ? "200px" : "auto");
 	max-height: 200px;
+}
+* html body img.resize {
+	width: expression(this.width >= this.height ? "200px" : "auto");
 	height: expression(this.width <= this.height ? "200px" : "auto");
 }
