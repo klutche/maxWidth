@@ -27,7 +27,7 @@ h1 { margin:40px 0 20px; color:#ccc; font-size:28px; letter-spacing:0.1em; }
 img,
 code { border:solid 1px #ccc; box-shadow:0 5px 10px rgba(0, 0, 0, 0.05); }
 img { padding:4px; background:#fff; }
-code { display:block; width:480px; margin:10px auto; padding:10px; text-align:left; background:#fff; }
+code { display:block; width:500px; margin:10px auto; padding:10px; text-align:left; background:#fff; }
 
 /************************************************************
  * resize
