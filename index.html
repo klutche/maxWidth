@@ -19,12 +19,8 @@
 
 <code>
 img.resize {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;width: auto;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;height: auto;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;max-width: 200px;<br>
 &nbsp;&nbsp;&nbsp;&nbsp;max-height: 200px;<br>
-}<br>
-* html body img.resize {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;width: expression(this.width >= this.height ? "200px" : "auto");<br>
 &nbsp;&nbsp;&nbsp;&nbsp;height: expression(this.width <= this.height ? "200px" : "auto");<br>
 }<br>

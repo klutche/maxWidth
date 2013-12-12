@@ -34,12 +34,8 @@ code { display:block; width:500px; margin:10px auto; padding:10px; text-align:le
  ************************************************************/
 
 img.resize {
-	width: auto;
-	height: auto;
 	max-width: 200px;
 	max-height: 200px;
-}
-* html body img.resize {
 	width: expression(this.width >= this.height ? "200px" : "auto");
 	height: expression(this.width <= this.height ? "200px" : "auto");
 }
