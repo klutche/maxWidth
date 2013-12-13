@@ -15,9 +15,6 @@ caption, th { text-align:left; }
 address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal; }
 a img, li img { vertical-align:bottom; }
 
-/* html5 */
-article, aside, figure, footer, header, hgroup, nav, section { display:block; margin:0; padding:0; }
-
 /************************************************************
  * general
  ************************************************************/

@@ -1,29 +1,23 @@
-<!DOCTYPE HTML>
-<html lang="ja">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name="format-detection" content="telephone=no">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>maxWidth</title>
-<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-<link rel="stylesheet" href="style.css">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<!--[if lt IE 9]>
-<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
+<link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
 <h1>maxWidth</h1>
 
-<img src="900x600.jpg" alt="上椎葉ダム" class="resize">
+<img src="900x600.jpg" alt="上椎葉ダム" class="resize" />
 
 <code>
-img.resize {<br>
-&nbsp;&nbsp;&nbsp;&nbsp;max-width: 200px;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;max-height: 200px;<br>
-&nbsp;&nbsp;&nbsp;&nbsp;width: expression(this.width >= this.height ? "200px" : "auto");<br>
-&nbsp;&nbsp;&nbsp;&nbsp;height: expression(this.width <= this.height ? "200px" : "auto");<br>
-}<br>
+img.resize {<br />
+&nbsp;&nbsp;&nbsp;&nbsp;max-width: 200px;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;max-height: 200px;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;width: expression(this.width &gt;= this.height ? &quot;200px&quot; : &quot;auto&quot;);<br />
+&nbsp;&nbsp;&nbsp;&nbsp;height: expression(this.width &lt;= this.height ? &quot;200px&quot; : &quot;auto&quot;);<br />
+}<br />
 </code>
 
 </body>
